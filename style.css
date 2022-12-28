@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    
+}
+
+
+.btn-list{
+    width: 349.28px;
+    height: 51px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 32.78px;
+}
+
+button{
+    width: 52.24px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #7C8798;
+    background: #262E38;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+}
+
+
+.card{
+    
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    width: 422px;
+    height: 416px;
+    
+    
+}
+
+.pic1{
+    margin-top: 48px;
+    margin-left: 49.17px;
+}
+
+.card h1{
+
+    width: 203.83px;
+    height: 43px;
+    margin-left: 32.78px;
+    line-height: 35.45px;
+    margin-top: 46px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.card p{
+
+    width: 348.25px;
+    height: 72px;
+    margin-left: 32.78px;
+    color: #969FAD;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.sbmt{
+
+    margin-top: 32px;
+    width: 349.28px;
+    height: 45px;
+    margin-left: 32.78px;
+    border-radius: 22.5px;
+    background-color: #FC7614;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    
+}
+
+
+button:hover{
+
+    background: #7C8798;
+    color: white;
+}
+
+button:focus{
+
+    background-color: #FC7614;
+    color: white;
+}
+
+.sbmt:hover{
+
+    background-color: white;
+    color: #FC7614;
+}
+
+
+
+.thanks{
+
+    width: 412px;
+    height: 416px;
+    text-align: center;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    border-radius: 30px;
+    display: none;
+    
+    
+}
+
+.pic2{
+
+    margin: 45px 0px 32px 0px;
+}
+
+.thk-note{
+
+    padding: 4px 19px;
+    color: #FC7614;
+    width: 193px;
+    margin: 0 auto;
+    background-color: #262E38;
+    border-radius: 22.5px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+   
+}
+
+
+h2{
+
+    color: white;
+    margin: 32px 0px 7px 0px;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+
+.thanks > p:last-child{
+
+    
+    width: 340px;
+    margin: 0 auto;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #969FAD;
+   
+}
